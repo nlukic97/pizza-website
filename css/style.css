@@ -86,7 +86,7 @@ nav ul li a:hover {
 	top:70px;
 	position: absolute;
 	right: 0;
-	z-index: 2;	
+	z-index: 1;	
 }
 
 #cart:hover {
