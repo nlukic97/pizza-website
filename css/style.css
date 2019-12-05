@@ -24,6 +24,7 @@ body {
 }
 
 /*-----------logo---------*/
+
 #bar #pizza-logo {
 	margin-top: 7px;
 	margin-left: -360px;
@@ -118,11 +119,12 @@ nav ul li a:hover {
 	top: 154px;
 	text-align: center;
 	color: #fff;
-	font-family: 'Arial', sans-serif; 
+	font-family: 'Arial', sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 60px; 
+	font-size: 30px;
+	font-weight: normal;
 }
 
 /*----------------------section 3-----------------------*/
