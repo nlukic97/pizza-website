@@ -91,12 +91,21 @@ nav ul li a:hover {
 	top:70px;
 	position: absolute;
 	right: 0;
-	z-index: 1;	
+	z-index: 1;
+	background-color: #FF7A00;
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	background-image: url(../images/checkout.png);
+	background-repeat: no-repeat;
+	background-position: 14px center;
+	background-size: auto;
 }
 
 #cart:hover {
 	transform: scale(1.1);
 	cursor: pointer;
+	background-color: #FF8F29;
 }
 
 /*---------section 2 ------------*/
@@ -170,6 +179,43 @@ nav ul li a:hover {
 	font-size: 25px;
 	padding-top: 30px;
 	line-height: 1.2;
+	text-align: justify;
+}
+.bar3-boxes {
+	margin: 0 auto;
+	width: 562px;
+	margin-top: 156px;
+}
+
+.bar3-boxes a {
+	color: #fff;
+	font-style: normal;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.order-now {
+	background-color: rgba(201,119,28,0.8);
+	float: left;
+	text-align: center;
+	padding: 20px 63px;
+	border:1px solid #808080;
+}
+
+.order-now:hover {
+	background-color: rgba(201,119,28,1);
+}
+
+.make-a-reservation {
+	background-color: rgba(200,200,200,0.33);
+	float: right;
+	padding: 20px 15px;
+	border:1px solid #808080;
+	box-sizing: border-box;
+}
+
+.make-a-reservation:hover {
+	background-color: rgba(200,200,200,0.56);
 }
 
 /*---------------------FOOTER-------------------------*/
@@ -239,9 +285,13 @@ margin-left: 190px;
 
 .footer-lists ul li a {
 	text-decoration: none;
-	color: #808080;
+	color: #6e6d6d;
 	font-size: 18px;
 	line-height: 1.5;
+}
+
+.footer-lists ul li a:hover {
+	color: #9c9898;
 }
 
 .cards {
