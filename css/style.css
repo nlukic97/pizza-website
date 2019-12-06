@@ -108,6 +108,8 @@ nav ul li a:hover {
 	background-color: #FF8F29;
 }
 
+
+/* /////////////////////////////////////////// HOME   ////////////////////////////////////////////////*/
 /*---------section 2 ------------*/
 #bar2 {
 	width: 100%;
@@ -184,7 +186,7 @@ nav ul li a:hover {
 .bar3-boxes {
 	margin: 0 auto;
 	width: 562px;
-	margin-top: 156px;
+	margin-top: 185px;
 }
 
 .bar3-boxes a {
