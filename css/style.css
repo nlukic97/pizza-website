@@ -29,24 +29,27 @@ p {
 
 /*-----------logo---------*/
 
-#bar #pizza-logo {
-	margin-top: 7px;
-	margin-left: -360px;
+#logo-text {
 	float: left;
-	position: relative;
-	z-index: 1;
-}
-
-#logo-text div {
-	float: left;
-	height: 100%;
-	width: 120px;
+	height: 100px;
+	/*width: 120px;*/
 	font-family: 'Arial', sans-serif;
 	margin-top: 10px;
 	color: #fff;
 	text-align: center;
-	margin-left: 5px;
+	margin-left: 20px;
+	padding-left: 96px;
 	font-size: 30px;
+	background-image: url(../images/pizza-slice-logo.png);
+	background-size: 90px 90px;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 1;
+}
+
+#logo-text:hover {
+	transform: scale(1.1);
+	margin-top: 12px;
 }
 
 /*---------nav-----------*/
