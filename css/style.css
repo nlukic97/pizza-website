@@ -30,9 +30,6 @@ h1 {
 	margin:0 auto;
 	width: 1280px;
 	height: 84px;
-}
-
-.relat {
 	position: relative;
 }
 
@@ -128,7 +125,7 @@ nav ul li a:hover {
 	height: 702px;
 }
 
-.container2 {
+#container2 {
 	width: 1280px;
 	height: 702px;
 	margin:0 auto;
@@ -160,7 +157,7 @@ nav ul li a:hover {
 	height: 861px;
 }
 
-.container3 {
+#container3 {
 	width: 1280px;
 	height: 100%;
 	margin: -1px auto 0;
@@ -195,20 +192,20 @@ nav ul li a:hover {
 	line-height: 1.2;
 	text-align: justify;
 }
-.bar3-boxes {
+#bar3-boxes {
 	margin: 0 auto;
 	width: 562px;
 	margin-top: 185px;
 }
 
-.bar3-boxes a {
+#bar3-boxes a {
 	color: #fff;
 	font-style: normal;
 	font-size: 25px;
 	text-decoration: none;
 }
 
-.order-now {
+#order-now {
 	background-color: rgba(201,119,28,0.8);
 	float: left;
 	text-align: center;
@@ -216,11 +213,11 @@ nav ul li a:hover {
 	border:1px solid #808080;
 }
 
-.order-now:hover {
+#order-now:hover {
 	background-color: rgba(201,119,28,1);
 }
 
-.make-a-reservation {
+#make-a-reservation {
 	background-color: rgba(200,200,200,0.33);
 	float: right;
 	padding: 20px 15px;
@@ -228,7 +225,7 @@ nav ul li a:hover {
 	box-sizing: border-box;
 }
 
-.make-a-reservation:hover {
+#make-a-reservation:hover {
 	background-color: rgba(200,200,200,0.56);
 }
 
@@ -376,7 +373,7 @@ footer {
 	clear: both;
 }
 
-.container-footer {
+#container-footer {
 	width: 1280px;
 	height: 493px;
 	margin: 0 auto;
@@ -384,7 +381,7 @@ footer {
 	font-family: 'Arial', sans-serif;
 }
 
-.container-footer #p-download {
+#container-footer #p-download {
 	text-align: center;
 	font-size: 20px;
 	color: #4F4D4D;
@@ -392,13 +389,13 @@ footer {
 	padding-top: 50px;
 }
 
-.container-footer .buttons {
+#container-footer .buttons {
 	margin: 0 auto;
 	width: 345px;
 	padding-top: 20px;
 }
 
-.container-footer .google-play {
+#container-footer #google-play {
 	height: 53px;
 	width: 158px;
 	background-image: url(../images/google-play.png);
@@ -406,7 +403,7 @@ footer {
 	background-position: center;
 }
 
-.container-footer .app-store {
+#container-footer #app-store {
 	height: 53px;
 	width: 158px;
 	background-image: url(../images/app-store.png);
@@ -446,7 +443,7 @@ margin-left: 190px;
 	color: #9c9898;
 }
 
-.cards {
+#cards {
 	background-image: url(../images/cards.png);
 	height: 90px;
 	width: 156px;
