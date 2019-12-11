@@ -12,6 +12,22 @@ h1 {
 	margin: 0;
 }
 
+@font-face {
+    font-family: 'Brush Script Std';
+    src: url('BrushScriptStd.woff2') format('woff2'),
+        url('BrushScriptStd.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Adobe Devanagari';
+    src: url('AdobeDevanagari-Bold.woff2') format('woff2'),
+        url('AdobeDevanagari-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 /*-------------------------HEADER ---------------------*/
 #page-title-bar {
 	width: 1280px;
@@ -39,7 +55,7 @@ h1 {
 	float: left;
 	height: 100px;
 	/*width: 120px;*/
-	font-family: 'Arial', sans-serif;
+	font-family: 'Brush Script Std', sans-serif;
 	margin-top: 10px;
 	color: #fff;
 	text-align: center;
@@ -143,12 +159,12 @@ nav ul li a:hover {
 	top: 154px;
 	text-align: center;
 	color: #fff;
-	font-family: 'Arial', sans-serif;
+	font-family: 'Adobe Devanagari', sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 30px;
-	font-weight: normal;
+	font-size: 40px;
+	line-height: 1.2;
 }
 
 /*----------------------section 3-----------------------*/
@@ -166,7 +182,6 @@ nav ul li a:hover {
 	font-family: 'Arial', sans-serif;
 	text-align: center;
 	font-size: 30px;
-	f
 }
 
 #text-box h2 {
@@ -251,14 +266,14 @@ nav ul li a:hover {
 	padding-bottom: 129px;
 }
 
-.about-us h1 {
+/*.about-us h1 {
 	text-align: center;
 	font-family: 'Arial', sans-serif;
 	color: #C9771C;
 	font-size: 40px;
 	font-weight: normal;
 	padding: 40px 0 60px;
-}
+}*/
 
 .about-image {
 	width: 309px;
@@ -359,6 +374,66 @@ nav ul li a:hover {
 	padding:0 100px;
 }
 
+/*----------------------- PAGE: DELIVERY -------------------------*/
+#delivery {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+#pizza-champagne {
+	background-image: url(../images/pizza-champagne.png);
+	height: 532px;
+	width: 1280px;
+}
+
+#delivery-container {
+	width: 904px;
+	height: 836px;
+	border:1px solid red;
+	margin: 119px auto 168px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.delivery-box {
+	border:1px solid red;
+	width: 397px;
+	height: 331px;
+}
+
+.delivery-box-image {
+	width: 397px;
+	height: 203px;
+}
+
+#spicy {
+	background-image: url(../images/spicy-pizza.png);
+
+}
+
+#mediterranian {
+	background-image: url(../images/mediterranian-pizza.png);
+
+}
+
+#pepperoni {
+	background-image: url(../images/pepperoni-pizza.png);
+
+}
+
+#vegetarian {
+	background-image: url(../images/vegetarian-pizza.png);
+
+}
+
+.delivery-box-text {
+	width: 100%;
+	height: 128px;
+	background-color: #E3B480;
+}
 
 
 
@@ -490,9 +565,7 @@ margin-left: 190px;
 .page-title {
 	font-family: 'Arial', sans-serif;
 	text-align: center;
-	font-size: 40px; /*smanjio bih ja ovo*/
-	/*margin-bottom: 60px;
-	margin-top:30px;*/
+	font-size: 40px;
 	padding: 40px 0 60px;
 	color: #C9771C;
 	font-weight: normal;
