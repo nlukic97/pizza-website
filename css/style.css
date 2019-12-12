@@ -1,7 +1,6 @@
 body {
 	margin:0;
 	padding: 0;
-	/*background: #333;*/
 }
 
 p {
@@ -266,19 +265,9 @@ nav ul li a:hover {
 	padding-bottom: 129px;
 }
 
-/*.about-us h1 {
-	text-align: center;
-	font-family: 'Arial', sans-serif;
-	color: #C9771C;
-	font-size: 40px;
-	font-weight: normal;
-	padding: 40px 0 60px;
-}*/
-
 .about-image {
 	width: 309px;
 	height: 466px;
-/*	border:1px solid red;*/
 }
 
 #dough {
@@ -330,7 +319,6 @@ nav ul li a:hover {
 	width: 50%;
 	height: 50%;
 	background-color: #C8C8C8;
-	/*border:1px solid blue;*/
 	box-sizing: border-box;
 	float: left;
 }
@@ -389,7 +377,6 @@ nav ul li a:hover {
 #delivery-container {
 	width: 904px;
 	height: 836px;
-	border:1px solid red;
 	margin: 119px auto 168px;
 	box-sizing: border-box;
 	display: flex;
@@ -399,7 +386,6 @@ nav ul li a:hover {
 }
 
 .delivery-box {
-	border:1px solid red;
 	width: 397px;
 	height: 331px;
 }
@@ -407,6 +393,7 @@ nav ul li a:hover {
 .delivery-box-image {
 	width: 397px;
 	height: 203px;
+	overflow: hidden;
 }
 
 #spicy {
@@ -430,11 +417,56 @@ nav ul li a:hover {
 }
 
 .delivery-box-text {
-	width: 100%;
+	/*width: 100%;*/
 	height: 128px;
 	background-color: #E3B480;
+	font-family: 'Arial', sans-serif;
 }
 
+.delivery-box-text h2 {
+	margin: 0;
+	padding:0;
+	font-weight: normal;
+	padding: 10px 0 17px 30px;
+	color: #C9771C;
+}
+
+.delivery-box-text p {
+	margin: 0;
+	padding:0 0 0 30px;
+	color: #828282;
+	font-style: italic;
+	font-size: 15px;
+	line-height: 1.4;
+}
+
+.price {
+	float: right;
+	color: #4F4D4D;
+	font-size: 25px;
+	padding:10px 30px 0 0;
+}
+
+.delivery-box-text a {
+	float: right;
+	font-size: 20px;
+	text-decoration: none;
+	color: #C9771C;
+	background-color: #C8C8C8;
+	border-radius: 20px;
+	padding:10px 20px 10px 48px;
+	margin-right: 30px;
+	clear: both;
+	margin-top: 20px;
+	background-image: url(../images/shopping-cart.png);
+	background-repeat: no-repeat;
+	background-position: 19px 10px;
+}
+
+.delivery-box-text a:hover {
+	background-color: #C9771C;
+	color: #fff;
+}
 
 
 
