@@ -472,6 +472,7 @@ nav ul li a:hover {
 
 
 
+
 /*---------------------FOOTER-------------------------*/
 footer {
 	width: 100%;
@@ -560,6 +561,48 @@ margin-left: 190px;
 }
 
 
+/*------------------Gallery page--------------*/
+#gallery-container {
+	width:1280px;
+	margin: 0 auto;
+}
+
+#gallery-images {
+	padding: 0 110px 139px 110px;
+}
+
+.gallery-right {
+	float: right;
+}
+
+#pizza-hands {
+	z-index: 1;
+	position: relative;
+	}
+
+#dough-press {
+	margin-top: -50px;
+	z-index: 2;
+	position: relative; /*So that the Z-index can work*/
+}
+
+#counter-topping {
+	margin-top: -150px;
+	margin-left: 70px;
+	position: relative;
+	z-index: 1;
+}
+
+#baking {
+	margin-top: -257px;
+	position: relative;
+	z-index: 2;
+}
+
+#finished-pizza {
+	margin-left: 70px;
+	margin-top: -106px;
+}
 
 
 
