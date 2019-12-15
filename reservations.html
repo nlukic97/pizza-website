@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Home</title>
 	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/279db593be.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!-- -----------------header ---------------- -->
@@ -26,7 +27,25 @@
 		</header>
 	</section>
 
+<!-- -------page content--------------- -->
+<section class="container">
 
+	<h1 class="page-title">Reserve a table</h1>
+	<div id="chef"></div>
+	<h2 class="page-title" id="reserve-h2">Reservation form</h2>
+
+	<form action="/action_page.php" method="get" id="reserve-form">
+		<input type="text" placeholder="Name and Surname">
+		<input type="text" placeholder="E-mail">
+		<input type="date" placeholder="Reservation Date">
+		<input type="number" placeholder="No. of Persons">
+		<input type="input" placeholder="Smoking Area">
+		<input type="textarea" placeholder="Additional information/ requests" id="extra-info">
+		<input type="submit" value="Submit" id="form-submit">
+	</form>
+
+	<p id="all-reservations">*All reservations shall be confirmed via e-mail. Table availibility may vary.</p>
+</section>
 
 <!-- ---------------Footer---------------->
 <footer>
@@ -57,13 +76,13 @@
 			</ul>
 			<ul>
 				<p class="footer-h">Follow us</p>
-				<li><a href="#">Facebook</a></li>
-				<li><a href="#">Instagram</a></li>
-				<li><a href="#">Youtube</a></li>
-				<li><a href="#">Twitter</a></li>
+				<li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+				<li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+				<li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
 			</ul>
-			
 		</div>
+		
 		<a href="#"><div id="cards"></div></a> <!-- Maybe move this in the .footer-lists div-->
 	</div>
 </footer>
