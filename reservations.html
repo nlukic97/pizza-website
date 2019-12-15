@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Home</title>
+	<title>Reservations</title>
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://kit.fontawesome.com/279db593be.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<!-- -----------------header ---------------- -->
-	<section id="bar">
-		<header class="container relat">
+	<!-- header -->
+	<div id="bar">
+		<header class="container">
 			<a href="index.html">
 				<div id="logo-text">Slice<br>Meisters</div>
 			</a>
@@ -25,9 +25,9 @@
 			</nav>
 			<a href="#"><div id="cart"></div></a>
 		</header>
-	</section>
+	</div>
 
-<!-- -------page content--------------- -->
+<!-- page content -->
 <section class="container">
 
 	<h1 class="page-title">Reserve a table</h1>
@@ -37,17 +37,17 @@
 	<form action="/action_page.php" method="get" id="reserve-form">
 		<input type="text" placeholder="Name and Surname">
 		<input type="text" placeholder="E-mail">
-		<input type="date" placeholder="Reservation Date">
+		<input type="date">
 		<input type="number" placeholder="No. of Persons">
-		<input type="input" placeholder="Smoking Area">
-		<input type="textarea" placeholder="Additional information/ requests" id="extra-info">
+		<input type="text" placeholder="Smoking Area">
+		<input type="text" placeholder="Additional information/ requests" id="extra-info">
 		<input type="submit" value="Submit" id="form-submit">
 	</form>
 
 	<p id="all-reservations">*All reservations shall be confirmed via e-mail. Table availibility may vary.</p>
 </section>
 
-<!-- ---------------Footer---------------->
+<!-- Footer -->
 <footer>
 	<div id="container-footer">
 		
@@ -59,30 +59,36 @@
 			<a href="#"><div id="app-store"></div></a>
 		</div>
 
-		<div class="footer-lists">
-			<ul>
-				<p class="footer-h">Slicemeisters.com</p>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">Terms and Conditions</a></li>
-				<li><a href="#">Privacy Policy</a></li>
-			</ul>
-			<ul>
-				<p class="footer-h">Services</p>
-				<li><a href="#">How to order</a></li>
-				<li><a href="#">How to reserve</a></li>
-				<li><a href="#">Venue booking</a></li>
-				<li><a href="#">FAQ</a></li>
-			</ul>
-			<ul>
-				<p class="footer-h">Follow us</p>
-				<li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
-				<li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-				<li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
-				<li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
-			</ul>
+		<div id="footer-lists">
+			<div class="footer-box" id="fb1">
+				<div class="footer-h">Slicemeisters.com</div>
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Terms and Conditions</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-box">
+				<div class="footer-h">Services</div>
+				<ul>
+					<li><a href="#">How to order</a></li>
+					<li><a href="#">How to reserve</a></li>
+					<li><a href="#">Venue booking</a></li>
+					<li><a href="#">FAQ</a></li>
+				</ul>
+			</div>
+			<div class="footer-box">
+				<div class="footer-h">Follow us</div>
+				<ul>
+					<li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+				</ul>
+			</div>
 		</div>
-		
 		<a href="#"><div id="cards"></div></a> <!-- Maybe move this in the .footer-lists div-->
 	</div>
 </footer>

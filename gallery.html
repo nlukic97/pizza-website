@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Home</title>
+	<title>Gallery</title>
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://kit.fontawesome.com/279db593be.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<!-- -----------------header ---------------- -->
-	<section id="bar">
-		<header class="container relat">
+	<!-- header  -->
+	<div id="bar">
+		<header class="container">
 			<a href="index.html">
 				<div id="logo-text">Slice<br>Meisters</div>
 			</a>
@@ -25,7 +25,7 @@
 			</nav>
 			<a href="#"><div id="cart"></div></a>
 		</header>
-	</section>
+	</div>
 
 
 <!-- Page Gallery -->
@@ -36,14 +36,14 @@
 		<img src="images/pizza-hands.png" alt="Pizza Flower" id="pizza-hands">
 		<img src="images/dough-press.png" alt="Pizza Dough" id="dough-press" class="gallery-right">
 		<img src="images/counter-topping.png" alt="Pizza Toppings" id="counter-topping">
-		<img src="images/baking.png" alt="Pizza in oven"class="gallery-right" id="baking">
+		<img src="images/baking.png" alt="Pizza in oven" class="gallery-right" id="baking">
 		<img src="images/finished-pizza.png" alt="Pizza to go" id="finished-pizza">
 	</div>
 </section>
 
 
 
-<!-- ---------------Footer---------------->
+<!-- Footer -->
 <footer>
 	<div id="container-footer">
 		
@@ -55,29 +55,35 @@
 			<a href="#"><div id="app-store"></div></a>
 		</div>
 
-		<div class="footer-lists">
-			<ul>
-				<p class="footer-h">Slicemeisters.com</p>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">Terms and Conditions</a></li>
-				<li><a href="#">Privacy Policy</a></li>
-			</ul>
-			<ul>
-				<p class="footer-h">Services</p>
-				<li><a href="#">How to order</a></li>
-				<li><a href="#">How to reserve</a></li>
-				<li><a href="#">Venue booking</a></li>
-				<li><a href="#">FAQ</a></li>
-			</ul>
-			<ul>
-				<p class="footer-h">Follow us</p>
-				<li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
-				<li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-				<li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
-				<li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
-			</ul>
-			
+		<div id="footer-lists">
+			<div class="footer-box" id="fb1">
+				<div class="footer-h">Slicemeisters.com</div>
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Terms and Conditions</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-box">
+				<div class="footer-h">Services</div>
+				<ul>
+					<li><a href="#">How to order</a></li>
+					<li><a href="#">How to reserve</a></li>
+					<li><a href="#">Venue booking</a></li>
+					<li><a href="#">FAQ</a></li>
+				</ul>
+			</div>
+			<div class="footer-box">
+				<div class="footer-h">Follow us</div>
+				<ul>
+					<li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+				</ul>
+			</div>
 		</div>
 		<a href="#"><div id="cards"></div></a> <!-- Maybe move this in the .footer-lists div-->
 	</div>
