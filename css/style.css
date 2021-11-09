@@ -613,7 +613,7 @@ nav ul li a:hover {
 
 /*---------------right box background-----------------*/
 .map {
-	background:url(../images/map-image.png) center center no-repeat;
+	background:url(../images/map-image.PNG) center center no-repeat;
 	background-size: 650px;
 	height: 100%;
 	width: 100%;
