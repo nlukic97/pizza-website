@@ -13,6 +13,5 @@
 					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
-			<a href="#"><div id="cart"></div></a>
 		</header>
 	</div>

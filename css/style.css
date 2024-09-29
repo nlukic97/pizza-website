@@ -90,14 +90,8 @@ nav ul {
 	list-style-type: none;
 }
 
-@media screen and (max-width: 600px) {
-	nav ul {
-	  display: none;
-	}
-  }
-
 nav ul li {
-	list-style-type: none;
+
 	float: left;
 }
 
@@ -115,35 +109,10 @@ nav ul li a:hover {
 	color: #C9771C;
 }
 
-/*------cart -------------*/
-#cart {
-	margin-right: 7px;
-	top:70px;
-	position: absolute;
-	right: 0;
-	z-index: 1;
-	background-color: #FF7A00;
-	width: 85px;
-	height: 85px;
-	border-radius: 50%;
-	background-image: url(../images/checkout.png);
-	background-repeat: no-repeat;
-	background-position: 14px center;
-	background-size: auto;
-}
-
-#cart:hover {
-	transform: scale(1.1);
-	cursor: pointer;
-	background-color: #FF8F29;
-}
-
 
 /* ------------------------------------------ PAGE 1: HOME --------------------------------------*/
 #container2 {
-	max-width: 1280px;
 	min-height: 702px;
-	margin:0 auto;
 	background-image: url(../images/pizza-page-1.png);
 	background-repeat: no-repeat;
 	position: relative;
@@ -168,9 +137,7 @@ nav ul li a:hover {
 
 /*----------------------section 3-----------------------*/
 #container3 {
-	max-width: 1280px;
 	min-height: 861px;
-	margin: 0 auto;
 	background-image: url(../images/pizza-oven.jpg);
 	background-position: center;
 	font-family: 'Arial', sans-serif;
@@ -186,7 +153,7 @@ nav ul li a:hover {
 }
 
 #text-box {
-	width: 720px;
+	max-width: 720px;
 	margin: 0 auto;
 }
 
@@ -201,9 +168,9 @@ nav ul li a:hover {
 }
 
 #container3-boxes {
-	margin: 0 auto;
-	width: 562px;
-	margin-top: 185px;
+	display: flex;
+	justify-content: center;
+	padding-top: 185px;
 }
 
 #container3-boxes a {
@@ -213,9 +180,13 @@ nav ul li a:hover {
 	text-decoration: none;
 }
 
+#container3-boxes a {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
 #order-now {
 	background-color: rgba(201,119,28,0.8);
-	float: left;
 	text-align: center;
 	padding: 20px 63px;
 	border:1px solid #808080;
@@ -227,7 +198,6 @@ nav ul li a:hover {
 
 #make-a-reservation {
 	background-color: rgba(200,200,200,0.33);
-	float: right;
 	padding: 20px 15px;
 	border:1px solid #808080;
 	box-sizing: border-box;
@@ -770,4 +740,39 @@ margin-left: 210px;
 	float: left;
 	margin-left: 90px;
 	margin-top: 35px;
+}
+
+
+/* media queries */
+@media screen and (max-width:850px) {
+	nav ul {
+		display: none;
+	}
+
+	#container2 {
+		display: flex;
+		justify-content: center;
+	}
+	
+	#container2 #yellow-box {
+		margin: unset;
+	}
+
+	#container3 {
+		padding: 0 20px;
+	}
+
+	#container3-boxes {
+		flex-direction: column;
+		padding-top: 75px;
+	}
+
+	#container3-boxes a {
+		display: inline-block;
+		margin:20px 0;
+	}
+
+	#container3-boxes a div {
+		display: inline-block;
+	}
 }

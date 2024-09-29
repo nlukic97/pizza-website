@@ -1,14 +1,13 @@
 <?php
 require "partials/header.php";
-// die();
 ?>
 <!-- section 2 -->
-	<section id="container2">
+	<section id="container2" class='container'>
 			<div id="yellow-box"><h2>We make<br>pizza...</h2></div>
 	</section>
 
 <!-- section 3 -->
-	<section id="container3">
+	<section id="container3" class='container'>
 		<div id="text-box">
 			<h2>...really good pizza.</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus porttitor mi eget aliquet. Duis ex lectus, hendrerit in sapien in, interdum feugiat massa. </p>
