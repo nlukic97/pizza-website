@@ -1,5 +1,5 @@
 <div id="bar">
-		<header class="container">
+		<header class="container relative">
 			<a href="index.php">
 				<div id="logo-text">Slice<br>Meisters</div>
 			</a>

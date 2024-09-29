@@ -4,7 +4,7 @@ require "partials/header.php"
 
 
 <!-- page content -->
-<section class="container">
+<section class="container relative">
 
 	<h1 class="page-title">Reserve a table</h1>
 	<div id="chef"></div>

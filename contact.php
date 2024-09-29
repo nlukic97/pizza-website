@@ -2,9 +2,8 @@
 require "partials/header.php"
 ?>
 <!-- Contact us -->
-	<div id="page-title-bar">
-		<h1 class="page-title">Contact us</h1>
-	</div>
+	<h1 class="page-title">Contact us</h1>
+	
 	<div class="blue-jacket"></div>
 
 	<div class="box">

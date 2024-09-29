@@ -36,24 +36,20 @@ h1 {
 	font-weight: normal;
 }
 /*-------------------------HEADER ---------------------*/
-#page-title-bar {
-	max-width: 1280px;
-	margin: 0 auto;
-}
-
 #bar {
-	width:100%;
 	background-color: #C9771C;	
 }
 
 .container {
-	margin:0 auto;
+	margin: 0 auto;
 	max-width: 1280px;
+}
+
+.relative {
 	position: relative;
 }
 
 /*--------logo------*/
-
 #logo-text {
 	float: left;
 	height: 100px;
@@ -78,11 +74,13 @@ h1 {
 
 /*---------nav-----------*/
 nav {
-	min-height: 84px;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	z-index: 32;
+	background-color: #C9771C;
+	width: 100%;
+	min-height: 86px;
 }
 
 
@@ -91,6 +89,12 @@ nav ul {
 	padding: 0;
 	list-style-type: none;
 }
+
+@media screen and (max-width: 600px) {
+	nav ul {
+	  display: none;
+	}
+  }
 
 nav ul li {
 	list-style-type: none;
@@ -103,6 +107,7 @@ nav ul li a {
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	padding: 32px 20px;
+	display: inline-block;
 }
 
 nav ul li a:hover {

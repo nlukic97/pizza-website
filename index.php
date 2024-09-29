@@ -1,5 +1,6 @@
 <?php
-require "partials/header.php"
+require "partials/header.php";
+// die();
 ?>
 <!-- section 2 -->
 	<section id="container2">
